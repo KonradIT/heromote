@@ -112,7 +112,7 @@ CAMERA_PARAMETERS = {
             },
         },
     'VR': {
-        'txt': 'Video resolution',
+        'txt': 'Video resolution HERO2',
         'perm': GP_PARAM_READ | GP_PARAM_WRITE,
         'write_target': 'camera',
         'values': {
@@ -130,7 +130,23 @@ CAMERA_PARAMETERS = {
             10: '720p 60 Protune',
             },
         },
-    'PH': { # Name is a guess
+    'VV' : {
+        'txt': 'Video resolutions HERO3 Black'
+        'perm': GP_PARAM_READ | GP_PARAM_WRITE,
+        'write_target': 'camera',
+        'values': {
+            0: 'WVGA 240',
+            1: '720p 120',
+            2: '960 100',
+            6: '960 48',
+            5: '1080p 30',
+            3: '1080p 60',
+            4: '1440p 40',
+            7: '2.7k 30',
+            6: '4k 15',
+            },
+        },
+   'PH': { # Name is a guess
         'txt': 'Printed hours',
         'perm': GP_PARAM_READ,
         },
